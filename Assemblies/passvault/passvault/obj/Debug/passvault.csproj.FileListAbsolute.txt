@@ -1,0 +1,7 @@
+C:\Users\carlos\source\repos\passvault\passvault\obj\Debug\passvault.csprojAssemblyReference.cache
+C:\Users\carlos\source\repos\passvault\passvault\obj\Debug\passvault.csproj.CoreCompileInputs.cache
+C:\Users\carlos\source\repos\passvault\passvault\bin\Debug\passvault.exe.config
+C:\Users\carlos\source\repos\passvault\passvault\bin\Debug\passvault.exe
+C:\Users\carlos\source\repos\passvault\passvault\bin\Debug\passvault.pdb
+C:\Users\carlos\source\repos\passvault\passvault\obj\Debug\passvault.exe
+C:\Users\carlos\source\repos\passvault\passvault\obj\Debug\passvault.pdb
