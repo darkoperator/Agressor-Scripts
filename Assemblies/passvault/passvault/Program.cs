@@ -18,13 +18,14 @@ namespace passvault
                 var cred_collection = vault.RetrieveAll();
                 if (cred_collection.Count > 0)
                 {
+                    Console.WriteLine($"{"Username",-50}    {"Password",50}   {"Resource",50}");
+                    string separator = new string('-', 158);
+                    Console.WriteLine(separator);
                     foreach (var password in cred_collection)
                     {
                         password.RetrievePassword();
-                        Console.WriteLine("Username: " + password.UserName);
-                        Console.WriteLine("Password: " + password.Password);
-                        Console.WriteLine("Resource: " + password.Resource);
-                        Console.WriteLine();
+                        Console.WriteLine($"{password.UserName,-50} || {password.Password, 50} || {password.Resource,50}");
+
                     }
                 }
                 else
